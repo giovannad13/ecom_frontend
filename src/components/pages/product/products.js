@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { ReactDOM } from 'react';
+
 import axios from 'axios';
 
 import ProductCard from './product-card';
 import Cart from "../cart"
-import { useCart } from "react-use-cart";
-import { CartProvider } from "react-use-cart";
+
 
 
 

@@ -6,10 +6,7 @@ import { BiCart } from "react-icons/bi";
 
 import {Navbar, Container, Nav, } from 'react-bootstrap';
 
-import { CartProvider } from "react-use-cart";
-import { useCart } from "react-use-cart";
 
-import Cart from "../pages/cart";
 
 
 // const {

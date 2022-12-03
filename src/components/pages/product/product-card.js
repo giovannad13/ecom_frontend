@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactDOM } from 'react';
 
 import { useCart } from "react-use-cart";
 
@@ -7,7 +6,7 @@ const ProductCard = (props) => {
     const { addItem } = useCart();
 
 
-  const{id, name, desc, category, price, url} = props.item
+  const{ name, desc, price } = props.item
 
 
 
